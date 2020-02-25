@@ -1,0 +1,11 @@
+App\Entity\User:
+  user{1..10}:
+    email: user<current()>\@domain.fr
+    password: "0000"
+
+
+# Lié avec une autre entité
+#App\Entity\Post:
+  #post{1..10}:
+    #name: <name()>
+    #user: '@user<numberBetween(1,10)'
